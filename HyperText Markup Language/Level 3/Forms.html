@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="/about">
+                <div>
+                    <label for="nm">Name : </label>
+                    <input type="text" placeholder="Enter username" id="nm" name="nm"/>
+                </div><br/>
+                <div>
+                    <label>Gender : </label>
+                    <input type="radio" name="gndr" id="m" name="gender" value="Male">
+                    <label for="m">Male</label>
+                    <input type="radio" name="gndr" id="f" name="gender" value="Female">
+                    <label for="f">Female</label>
+                </div><br/>
+                <div>
+                    <label for="cntry">Select State : </label>
+                    <select name="country" id="cntry">
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                    </select>
+                </div><br/>
+                <div>
+                    <label for="msg">Comments</label>
+                    <textarea id="msg" placeholder="Comment Here..." rows="5" cols="15" name="cmnts"></textarea>
+                </div><br/>
+                <div>
+                    <input type="checkbox" id="suscribe" name="suscribe" value="Suscribed"/>
+                    <label for="suscribe">Suscribe ??</label>
+                </div><br/>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

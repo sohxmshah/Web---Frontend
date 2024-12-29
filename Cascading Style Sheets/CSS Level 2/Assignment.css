@@ -1,0 +1,45 @@
+*{
+    text-align: justify;
+}
+
+h2,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* body p{
+    color: white;
+    background-color: blueviolet;
+} */
+
+button{
+    background-color: purple;
+    color: azure;
+}
+
+#maintopic,h3,h5{
+    color: darkblue;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* nth of type(n) */
+/* p:nth-of-type(2n+1){
+    background-color: yellow;
+} */
+
+h1::first-letter{
+    color: red;
+}
+
+p::selection {
+    background-color:lightsteelblue;
+    color: black;
+}
+
+input[type="checkbox"]:checked + label{
+    color: darkgreen;
+    font-family:cursive;
+}

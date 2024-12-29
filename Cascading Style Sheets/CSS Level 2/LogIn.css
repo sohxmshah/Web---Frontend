@@ -1,0 +1,22 @@
+*{
+    margin-left:2px;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    color: #1b74e4;
+    font-weight: 700;
+}
+
+.btns button{
+    background-color: #1b74e4;
+    color: white;
+    border-radius: 5%;
+}
+
+#srch{
+    background-color: #1b74e4;
+    color: white;
+}

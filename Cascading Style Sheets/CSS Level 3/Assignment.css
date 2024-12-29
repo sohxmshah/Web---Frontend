@@ -1,0 +1,26 @@
+.main {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.next {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+li {
+    display: inline;
+
+}
