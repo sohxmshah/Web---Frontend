@@ -14,6 +14,6 @@ The programming language of front-end engineering. JavaScript is visible to the 
 Other components
 
 <strong>React Js</strong> : <br> 
-It's a Component-Based Architecture. 
+It's a Component-Based Architecture.<br>
 React.js is a powerful tool for building dynamic and responsive user interfaces in full-stack development. Its component-based architecture, performance optimizations, and strong community support make it a popular choice among developers for creating modern web applications. When combined with a robust back-end technology, React can help create seamless and efficient full-stack applications.
 Component-Based Architecture
