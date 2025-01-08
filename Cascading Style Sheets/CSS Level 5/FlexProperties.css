@@ -1,0 +1,21 @@
+.container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.childcontainer {
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+}

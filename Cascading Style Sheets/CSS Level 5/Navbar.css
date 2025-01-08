@@ -1,0 +1,28 @@
+.nav {
+    height: 50px;
+    width: 900px;
+    border: 2px solid #fbeaff;
+    background-color:#b39cd0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.anchor {
+    height: 50px;
+    width: 80px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+.nav:hover {
+    background-color: #00c9a7;
+}
+
+.anchor:hover {
+    color:white;
+}
